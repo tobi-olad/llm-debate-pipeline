@@ -14,6 +14,8 @@ The judge agent uses Qwen3 8B, which was selected for its strong performance in 
 - The debate goes on for N Rounds where the agents (both debaters) criticize each other's reasoning and refine their argument.
 - The judge looks at the transcript of the debate, analyzing both points and coming up with a verdict i.e. the winner of the debate.
 
+  ![Results](results.png)
+
 ## Model Configurations
 
 The temperature of the debaters was chosen to be 0.7 while the temperature of the judge was chosen to be 0.3. I opted for the debaters to have that temperature to give the idea of the agents or debaters in this case to creatively think of ways that they can attack each other's points instead of a very deterministic way of arguing, while for the judge I gave it a low temperature because a judge is supposed to be a little bit more deterministic.
