@@ -14,7 +14,7 @@ The judge agent uses Qwen3 8B, which was selected for its strong performance in 
 - The debate goes on for N Rounds where the agents (both debaters) criticize each other's reasoning and refine their argument.
 - The judge looks at the transcript of the debate, analyzing both points and coming up with a verdict i.e. the winner of the debate.
 
-  ![Results](img.png)
+  ![Results](https://raw.githubusercontent.com/tobi-olad/llm-debate-pipeline/main/img.png))
 
 ## Model Configurations
 
