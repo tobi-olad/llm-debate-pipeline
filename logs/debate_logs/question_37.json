@@ -1,0 +1,25 @@
+{
+  "id": "MCAS_2006_9_43",
+  "question": "A pitcher throws a 0.15 kg baseball at 43 40 m/s towards the catcher. What is the momentum of the baseball while moving at 40 m/s?",
+  "choices": [
+    "0.025 kg x m/s",
+    "3.8 kg x m/s",
+    "6.0 kg x m/s",
+    "270 kg x m/s"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo find the momentum of the baseball, we need to use the formula for momentum, which is the product of the mass of the object and its velocity. \n\nFirst, we identify the given values: the mass of the baseball (m) is 0.15 kg, and the velocity (v) is 40 m/s.\n\nNext, we plug these values into the formula for momentum: momentum = mass * velocity = 0.15 kg * 40 m/s.\n\nThen, we perform the multiplication: 0.15 kg * 40 m/s = 6.0 kg * m/s.\n\nTherefore, the momentum of the baseball while moving at 40 m/s is 6.0 kg * m/s.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nMomentum (p) is calculated as the product of mass (m) and velocity (v):\np = m \u00d7 v  \nm = 0.15\u202fkg  \nv = 40\u202fm/s  \np = 0.15\u202fkg \u00d7 40\u202fm/s = 6.0\u202fkg\u00b7m/s  \n\nANSWER: C",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

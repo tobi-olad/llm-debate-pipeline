@@ -1,0 +1,25 @@
+{
+  "id": "MEAP_2005_8_13",
+  "question": "The presence of fossil organisms in rocks can provide information about the environment at the time the sediments were deposited because",
+  "choices": [
+    "fossils occur only in sedimentary rocks.",
+    "many organisms survive for millions of years.",
+    "fossils do not undergo chemical or physical weathering.",
+    "different organisms usually inhabit specific environments."
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, let's consider each option and evaluate its relevance to the information provided by fossil organisms in rocks.\n\nFirst, option A states that fossils occur only in sedimentary rocks. While it's true that fossils are often found in sedimentary rocks, this is not the primary reason why fossil organisms in rocks can provide information about the environment at the time the sediments were deposited.\n\nNext, option B mentions that many organisms survive for millions of years. This is not necessarily true, as most organisms do not survive for millions of years. Their remains can be preserved, but this does not directly relate to the information provided by fossil organisms about the environment.\n\nOption C claims that fossils do not undergo chemical or physical weathering. This is not accurate, as fossils can indeed undergo chemical or physical weathering over time, which can affect their preservation and interpretation.\n\nLastly, option D states that different organisms usually inhabit specific environments. This is a crucial point, as the presence of specific fossils in a rock layer can indicate the environment in which those sediments were deposited. For example, the presence of coral reefs might suggest a shallow, tropical marine environment, while the presence of fossils of land plants might indicate a terrestrial environment.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe question asks why fossils can inform us about the depositional environment of rocks.  \n- **Option A** states that fossils occur only in sedimentary rocks. While most fossils are found in sedimentary rocks, this fact alone does not explain how they reveal environmental conditions.  \n- **Option B** mentions that many organisms survive for millions of years. Longevity of organisms does not directly link fossils to the environment in which the sediments were deposited.  \n- **Option C** claims fossils do not undergo chemical or physical weathering. Fossils can indeed be altered or weathered, so this statement is inaccurate and irrelevant to environmental interpretation.  \n- **Option D** points out that different organisms usually inhabit specific environments (e.g., marine, freshwater, terrestrial). Because organisms are adapted to particular habitats, the presence of their fossils indicates the type of environment that existed when the sediment was laid down.\n\nThus, the correct explanation is that different organisms are associated with specific environments, allowing us to infer those conditions from the fossil record.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

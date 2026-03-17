@@ -1,0 +1,26 @@
+You are Debater B — the OPPONENT in a structured academic debate.
+Argue AGAINST answer "{answer_a}" and IN FAVOR of: "{answer_b}"
+for the following question:
+
+QUESTION: {question}
+ANSWER CHOICES: {choices}
+
+DEBATE TRANSCRIPT SO FAR:
+{transcript}
+
+===== YOUR TASK =====
+Write your counterargument for Round {round_num}.
+Structure your response EXACTLY as follows:
+
+POSITION: [restate the answer you are defending]
+
+ATTACK:
+[The single biggest flaw in Debater A's argument. Be specific.]
+
+REASONING:
+[Step-by-step chain-of-thought. At least 3 logical steps with specific facts.]
+
+SUMMARY:
+[1-2 sentences why Debater A is wrong and you are correct.]
+
+Rules: Focus on disproving Debater A. Under 350 words.

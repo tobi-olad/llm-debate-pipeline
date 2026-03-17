@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_402364",
+  "question": "Black fur is dominant to white fur in guinea pigs. If two black guinea pigs (Bb) are crossed, what color will the fur of their offspring be?",
+  "choices": [
+    "100% black",
+    "100% white",
+    "50% black, 50% white",
+    "75% black, 25% white"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this problem, we need to understand the concept of dominance in genetics. In this case, black fur (B) is dominant over white fur (b). The genotype Bb represents an individual with one dominant allele (B) and one recessive allele (b).\n\nSince both parents are Bb, we can determine the possible genotypes of their offspring using a Punnett square.\n\n- Each parent can contribute either the B allele or the b allele to their offspring.\n- The possible genotypes of the offspring are BB, Bb, and bb.\n\nSince black fur (B) is dominant, the BB genotype will result in black fur, and the Bb genotype will also result in black fur (because the dominant B allele will mask the effect of the recessive b allele). The bb genotype will result in white fur.\n\nNow, let's calculate the probabilities of each genotype:\n\n- The probability of BB is 25% (1 out of 4 possible combinations).\n- The probability of Bb is 50% (2 out of 4 possible combinations).\n- The probability of bb is 25% (1 out of 4 possible combinations).\n\nSince the Bb genotype results in black fur, we can calculate the probability of black fur as follows:\n\n- 25% of the offspring will have the BB genotype (black fur).\n- 50% of the offspring will have the Bb genotype (black fur).\n- 25% of the offspring will have the bb genotype (white fur).\n\nAdding the probabilities of black fur, we get 25% + 50% = 75%.\n\nANSWER:\nD) 75% black, 25% white",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- The black fur allele (B) is dominant over the white fur allele (b).  \n- Each parent has the genotype Bb, meaning one dominant and one recessive allele.  \n- When two Bb individuals mate, we can list all possible allele pairings using a Punnett square:\n\n|   | B | b |\n|---|---|---|\n| **B** | BB | Bb |\n| **b** | bB | bb |\n\n- This gives four possible genotypes for the offspring: BB, Bb, bB, and bb.  \n- The phenotypes are determined by the presence of at least one B allele:  \n  - BB, Bb, and bB all show black fur (dominant phenotype).  \n  - bb shows white fur (recessive phenotype).  \n- Therefore, 3 out of the 4 possible genotypes (BB, Bb, bB) result in black fur, while 1 out of 4 (bb) results in white fur.  \n- This corresponds to a 75% probability of black fur and a 25% probability of white fur among the offspring.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

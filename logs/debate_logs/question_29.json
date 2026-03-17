@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_405710",
+  "question": "Which describes a chemical change?",
+  "choices": [
+    "sugar dissolving in tea",
+    "sunshine warming a sidewalk",
+    "scissors cutting paper into pieces",
+    "acid in the stomach digesting food"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which option describes a chemical change, we need to identify the characteristics of a chemical change. A chemical change occurs when a substance is transformed into a new substance, resulting in changes to its chemical composition. This often involves the formation or breaking of chemical bonds, releasing or absorbing energy, and creating new compounds.\n\nStep 1: Analyzing option A - Sugar dissolving in tea is a physical change because the sugar molecules are still present, but they are now dispersed in the tea. This process doesn't involve the formation of new compounds, so it's not a chemical change.\n\nStep 2: Examining option B - Sunshine warming a sidewalk is a physical change as well. The energy from the sun is transferred to the sidewalk, causing it to heat up, but the chemical composition of the sidewalk remains unchanged.\n\nStep 3: Looking at option C - Scissors cutting paper into pieces is also a physical change. The scissors break the paper into smaller pieces, but the chemical composition of the paper remains the same.\n\nStep 4: Considering option D - Acid in the stomach digesting food is a chemical change. The acid in the stomach breaks down the food into smaller molecules, releasing energy and creating new compounds. This process involves the formation of new chemical bonds and the breaking of existing ones.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- A) Sugar dissolving in tea is a physical change; the sugar molecules remain the same, only dispersed.\n- B) Sunshine warming a sidewalk is a physical change (heat transfer).\n- C) Scissors cutting paper into pieces is a physical change (mechanical alteration).\n- D) Acid in the stomach digesting food involves chemical reactions that break down food molecules into new substances, characteristic of a chemical change.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7172708",
+  "question": "There are several theories that exist concerning the way dinosaurs became extinct. If new evidence is found that appears to challenge a particular theory on dinosaur extinction, what happens to the old theory?",
+  "choices": [
+    "It is replaced.",
+    "It is modified.",
+    "It becomes law.",
+    "It becomes suspect."
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nWhen new evidence is found that challenges a particular theory, it does not necessarily mean that the old theory is completely incorrect or should be completely replaced. Instead, the new evidence is used to refine or adjust the existing theory, making it more accurate and comprehensive. This process is a natural part of the scientific method, where theories are continually tested, refined, and improved based on new data and observations.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nIn science, a theory is a well-substantiated explanation that is open to revision. When new evidence emerges that contradicts or challenges an existing theory, scientists evaluate the evidence and adjust the theory accordingly. Rather than automatically discarding the theory, they typically modify it to accommodate the new data (or, if the evidence is overwhelming, replace it entirely). Thus, the most accurate general response is that the old theory is **modified**.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

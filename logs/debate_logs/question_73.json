@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_401656",
+  "question": "Which event must have occurred before coal and oil could be formed?",
+  "choices": [
+    "Plants began appearing on Earth.",
+    "Dinosaurs became extinct on Earth.",
+    "Earth's continents became separated.",
+    "Earth's moon began orbiting."
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, we need to understand the process of how coal and oil are formed. Coal and oil are both fossil fuels, which are formed from the remains of ancient plants and animals. \n\nStep 1: The first step in the formation of coal and oil is the growth of plants. These plants absorb carbon dioxide and sunlight, which helps them grow. Over time, these plants die and sink to the bottom of bodies of water.\n\nStep 2: After the plants die, they are subjected to heat and pressure over millions of years, which transforms them into coal and oil. This process requires a significant amount of time and pressure, which can only occur after the plants have been buried.\n\nStep 3: Considering the above steps, we can conclude that plants must have existed on Earth before coal and oil could be formed.\n\nStep 4: Now, let's consider the answer choices provided. \n- B) Dinosaurs became extinct on Earth. Dinosaurs did not contribute to the formation of coal and oil, and their extinction is not a necessary condition for the formation of coal and oil.\n- C) Earth's continents became separated. The separation of continents does not directly affect the formation of coal and oil.\n- D) Earth's moon began orbiting. The formation of the moon is unrelated to the formation of coal and oil.\n\nANSWER:\nA)",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. Coal and oil are fossil fuels that form from the remains of ancient plants and marine organisms.  \n2. For these organic materials to accumulate in large quantities and eventually transform into coal or oil, plants (or other photosynthetic organisms) must first have existed to supply the biomass.  \n3. The extinction of dinosaurs, the separation of continents, and the moon beginning to orbit do not provide the necessary organic material for coal and oil formation.  \n4. Therefore, the only event that must have occurred prior to the formation of coal and oil is the appearance of plants on Earth.  \n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

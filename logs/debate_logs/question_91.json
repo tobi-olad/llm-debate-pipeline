@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_188335",
+  "question": "A star with twice the mass as the Sun would",
+  "choices": [
+    "start its life cycle with a fission process.",
+    "use its fuel source much more quickly.",
+    "provide more solar flares.",
+    "result in a nebula."
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, we need to consider how a star's mass affects its life cycle. A star's mass determines its energy output, size, and lifespan. \n\nStep 1: Recall that stars like the Sun are primarily composed of hydrogen and undergo nuclear fusion in their cores. This process releases energy in the form of light and heat.\n\nStep 2: Consider how a star with twice the mass of the Sun would affect its nuclear fusion process. A more massive star has a stronger gravitational pull, causing its core to heat up faster and burn through its fuel more quickly.\n\nStep 3: Eliminate answer choices that do not directly relate to a star's mass and life cycle. A fission process (A) is not relevant to a star's life cycle, as it involves splitting atomic nuclei, whereas stars undergo fusion. Solar flares (C) are related to magnetic activity, not directly to a star's mass. A nebula (D) is a cloud of gas and dust, often the result of a star's death, but not a direct consequence of a star's mass.\n\nStep 4: Based on the reasoning above, the correct answer is related to a star's mass affecting its fuel consumption rate.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- Stars generate energy through nuclear fusion, not fission; thus option A is incorrect.  \n- A more massive star has a higher core temperature, which increases the rate of fusion reactions. This causes it to consume its hydrogen fuel more rapidly, shortening its overall lifetime.  \n- While magnetic activity can produce flares, the amount of solar flares does not increase simply because a star is twice as massive; flare occurrence depends on magnetic field geometry and rotation, not directly on mass.  \n- Although a star of this mass will eventually shed outer layers and may produce a planetary nebula, that is a consequence of its late evolutionary stage rather than a direct result of being twice the Sun\u2019s mass, and the statement is too vague.  \n\nThe most directly true statement about a star twice the Sun\u2019s mass is that it uses its fuel much more quickly.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

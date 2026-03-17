@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7082758",
+  "question": "Which of these phrases best describes atoms?",
+  "choices": [
+    "two or more combined elements",
+    "the smallest units of an element",
+    "particles inside a nucleus",
+    "different forms of an element"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, let's break down each choice step by step:\n\nA) Two or more combined elements: This choice refers to compounds, which are formed when two or more elements combine in a chemical bond. However, this does not describe atoms themselves, but rather the result of combining multiple atoms.\n\nB) The smallest units of an element: This choice directly addresses the definition of an atom. Atoms are the smallest units of matter that retain the properties of an element, and they cannot be broken down into simpler substances by chemical means.\n\nC) Particles inside a nucleus: This choice is partially correct in that atoms do have particles inside their nucleus, such as protons and neutrons. However, it does not fully describe an atom, as atoms also have electrons orbiting the nucleus.\n\nD) Different forms of an element: This choice refers to isotopes, which are atoms of the same element that have different numbers of neutrons in their nuclei. While isotopes are related to atoms, this choice does not fully describe what an atom is.\n\nANSWER:\nB)",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- An atom is the fundamental particle that makes up an element.  \n- It cannot be further subdivided into smaller units that still possess the element\u2019s identity (though it contains subatomic particles).  \n- Therefore, the correct description is that atoms are the smallest units of an element that still exhibit that element\u2019s chemical properties.  \n- Option A describes molecules, not atoms.  \n- Option C refers to subatomic particles (protons, neutrons, electrons), not atoms themselves.  \n- Option D describes isotopes or allotropes, not the definition of an atom.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

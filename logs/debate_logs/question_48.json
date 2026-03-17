@@ -1,0 +1,25 @@
+{
+  "id": "MCAS_2014_8_20",
+  "question": "The students in a class would like to make 20 paper sailboats for a race. The students will select one design and collect the materials they need to construct the boats. Which of the following is the best way for the students to be sure the paper sailboats will float without tipping over in the water?",
+  "choices": [
+    "construct a prototype of a boat for testing",
+    "calculate the total mass of all of the finished boats",
+    "determine the total amount of weight each boat can carry",
+    "test the strength of each material used to construct the boats"
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo ensure that the paper sailboats will float without tipping over in the water, the students need to test the boats in the water. This will allow them to observe how the boats behave in the water and make any necessary adjustments to the design. \n\nOne of the best ways to do this is by constructing a prototype of a boat for testing. This will give the students a real-life representation of the boat and allow them to test its buoyancy and stability in the water. By testing a prototype, the students can identify any design flaws and make adjustments before constructing the remaining 19 boats.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- The goal is to make sure the paper sailboats will float and stay upright in the water.\n- Knowing the total mass or load capacity (choices B and C) does not guarantee that the boats will actually float or remain stable; it only tells us how much weight they could carry if they already float.\n- Testing the strength of each material (choice D) ensures the boats won\u2019t break, but it doesn\u2019t address buoyancy or balance.\n- Constructing a prototype and testing it in water (choice A) allows the students to observe buoyancy, stability, and tipping behavior directly, and adjust the design accordingly before building the full set.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_401763",
+  "question": "An aluminum ion has a charge of +3, and an oxide ion has a charge of -2. Which would be the product of a reaction between these two elements?",
+  "choices": [
+    "Al_{2}O",
+    "Al_{2}O_{3}",
+    "2AlO_{3}",
+    "Al_{3}O_{2}"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this problem, we need to balance the charges between the aluminum ion and the oxide ion. Aluminum has a charge of +3, and oxide has a charge of -2. \n\nSince aluminum has a +3 charge and oxide has a -2 charge, we need to find a combination that balances these charges. \n\nTo balance the charges, we need to find a ratio between the aluminum ion and the oxide ion. \n\nThe least common multiple (LCM) of 3 and 2 is 6. Therefore, we need 2 aluminum ions with a charge of +3 each to balance 3 oxide ions with a charge of -2 each.\n\nHowever, since the LCM is 6 and we are dealing with +3 and -2 charges, the actual ratio is 2:3 or 2 aluminum ions for every 3 oxide ions. This means we will have 2Al for every 3O. \n\nSince we have 2Al for every 3O, we can write this as 2Al for 3O, or Al_{2}O_{3}.\n\nANSWER:\nB)",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nTo find a neutral compound from Al\u00b3\u207a and O\u00b2\u207b ions, the total positive charge must equal the total negative charge.  \nLet the compound have \\(x\\) Al ions and \\(y\\) O ions.  \nThe charge balance equation is:\n\\[\n3x = 2y\n\\]\nThe smallest whole\u2011number solution to this equation is \\(x = 2\\) and \\(y = 3\\), because \\(3(2) = 6\\) and \\(2(3) = 6\\).  \nThus the simplest formula is \\(\\mathrm{Al_2O_3}\\).\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

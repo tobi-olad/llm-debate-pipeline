@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_402616",
+  "question": "Which is an example of condensation?",
+  "choices": [
+    "water boiling in a pot",
+    "water being absorbed by plants",
+    "salt being removed from water",
+    "moisture on mirror after hot shower"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which option is an example of condensation, let's first define what condensation is. Condensation is the process by which water vapor in the air is changed into liquid water.\n\nA) Water boiling in a pot: This process involves water turning from liquid to gas (water vapor), which is the opposite of condensation.\n\nB) Water being absorbed by plants: This process involves plants using water from the soil, but it does not involve the change of water vapor to liquid water.\n\nC) Salt being removed from water: This process is known as desalination, and it involves removing salt from water, but it does not involve the change of water vapor to liquid water.\n\nD) Moisture on mirror after hot shower: This process involves water vapor in the air changing into liquid water on the mirror's surface, which matches the definition of condensation.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nCondensation is the process where water vapor in the air turns into liquid water.  \n- **A)** Water boiling in a pot involves evaporation, not condensation.  \n- **B)** Water being absorbed by plants is transpiration, not condensation.  \n- **C)** Salt being removed from water is desalination, unrelated to condensation.  \n- **D)** After a hot shower, the warm, humid air cools when it contacts the cooler mirror, causing water vapor to condense into droplets that appear as moisture on the mirror.\n\nThus, the correct example of condensation is **D**.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

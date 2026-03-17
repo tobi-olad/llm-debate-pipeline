@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_408367",
+  "question": "Thick fur on a mammal will trap heat close to the animal's body. A mammal with thick fur would be best fit for which type of environment?",
+  "choices": [
+    "a salt marsh",
+    "a frozen plain",
+    "a sandy beach",
+    "a humid rainforest"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the best environment for a mammal with thick fur, we need to consider the purpose of the fur. Thick fur traps heat close to the animal's body, which means it helps to keep the animal warm. This suggests that the mammal with thick fur would be best suited for a cold environment where it needs to stay warm.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- Thick fur provides insulation, keeping body heat from escaping.\n- This adaptation is advantageous in cold environments where conserving heat is essential.\n- Among the options, a frozen plain is the coldest environment where insulation would be most beneficial.\n- The other environments (salt marsh, sandy beach, humid rainforest) are warmer or have moisture that would make thick fur less useful.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

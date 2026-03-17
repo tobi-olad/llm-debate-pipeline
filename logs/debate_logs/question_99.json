@@ -1,0 +1,25 @@
+{
+  "id": "NCEOGA_2013_5_20",
+  "question": "Which characteristic would a child not inherit from one or both of its parents?",
+  "choices": [
+    "freckles",
+    "hair style",
+    "eye color",
+    "dimples"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which characteristic a child would not inherit from one or both of its parents, we need to consider the nature of each option. \n- Freckles (A) are a physical trait determined by genetics, which means they can be inherited from parents.\n- Hair style (B) is a choice or a learned behavior, not a genetic trait. \n- Eye color (C) is a physical trait determined by genetics, which means it can be inherited from parents.\n- Dimples (D) are a physical trait determined by genetics, which means they can be inherited from parents.\nConsidering these points, the characteristic that is not inherited from one or both of its parents is the one that is a choice or a learned behavior.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:  \nFreckles, eye color, and dimples are traits that have a genetic basis and can be passed from parents to offspring. \"Hair style,\" however, refers to how hair is cut, dyed, or otherwise styled\u2014a characteristic that is not genetically determined but rather chosen by the individual. Therefore, a child would not inherit hair style from its parents.\n\nANSWER: B",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

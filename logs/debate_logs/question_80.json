@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_416671",
+  "question": "Tobacco has been linked to many health problems. What is the most complete list of forms of tobacco that cause cancer?",
+  "choices": [
+    "cigarettes and snuff",
+    "chewing tobacco and snuff",
+    "cigarettes and chewing tobacco",
+    "cigarettes, chewing tobacco, and snuff"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo find the most complete list of forms of tobacco that cause cancer, we need to consider all the possible options. \n\nFirst, we know that tobacco products in general have been linked to cancer. This is why it's essential to look at various forms of tobacco.\n\nOption A (cigarettes and snuff) might seem like a possible answer, but it excludes chewing tobacco, which is also known to cause cancer.\n\nOption B (chewing tobacco and snuff) leaves out cigarettes, which are the most widely consumed tobacco product and are well-documented to cause cancer.\n\nOption C (cigarettes and chewing tobacco) doesn't include snuff, which has also been linked to cancer.\n\nOption D (cigarettes, chewing tobacco, and snuff) includes all the mentioned tobacco products and is therefore the most complete list.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nCigarettes contain thousands of carcinogenic chemicals and are a well\u2011documented cause of lung and many other cancers.  \nChewing tobacco (such as moist snuff or dip) is linked to oral, esophageal, and pancreatic cancers.  \nSnuff, whether used nasally or orally, contains tobacco alkaloids and has been associated with nasal and oral cancers as well.  \n\nSince all three listed forms of tobacco are established carcinogens, the most complete list must include cigarettes, chewing tobacco, and snuff.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

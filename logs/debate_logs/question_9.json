@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_402501",
+  "question": "Magnesium bromide is one of the most abundant compounds found in sea water. Which formula correctly represents magnesium bromide?",
+  "choices": [
+    "MgBr",
+    "MgBr_{2}",
+    "Mg_{2}Br",
+    "Mg_{3}Br_{2}"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the correct formula for magnesium bromide, we need to consider the charges of the ions involved. Magnesium (Mg) is an alkaline earth metal and tends to lose two electrons to form a +2 ion (Mg\u00b2\u207a). Bromine (Br) is a halogen and tends to gain one electron to form a -1 ion (Br\u207b).\n\nSince magnesium loses two electrons to form a +2 ion, it will combine with two bromide ions (each with a -1 charge) to achieve a neutral charge. This is based on the principle of charge balance, where the total positive charge equals the total negative charge.\n\nTherefore, the formula for magnesium bromide should be a magnesium ion with a +2 charge and two bromide ions with a -1 charge each.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- Magnesium typically forms a +2 cation (Mg\u00b2\u207a).\n- Bromide is a monovalent anion (Br\u207b).\n- To neutralize the charge, two Br\u207b ions are needed for every Mg\u00b2\u207a ion.\n- Therefore the empirical formula is MgBr\u2082.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

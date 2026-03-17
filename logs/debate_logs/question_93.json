@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_188528",
+  "question": "Which of the following is a significant source of energy in the Earth's interior?",
+  "choices": [
+    "volcanoes",
+    "convection",
+    "molten rock",
+    "radioactive isotopes"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the significant source of energy in the Earth's interior, let's evaluate each option step by step.\n\nFirst, we consider volcanoes (A). While volcanoes do release a significant amount of energy, they are primarily a result of the Earth's internal energy, rather than the source of it.\n\nNext, we look at convection (B). Convection is a process that involves the movement of heat through fluids, but it is not a source of energy itself; rather, it is a way that energy is transferred within the Earth.\n\nThen, we examine molten rock (C). Molten rock is a result of the Earth's internal heat, but it is not the primary source of energy.\n\nLastly, we consider radioactive isotopes (D). Radioactive isotopes undergo a process called radioactive decay, which releases a significant amount of energy. This process is a primary source of heat in the Earth's interior.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe Earth's interior generates heat primarily from the decay of radioactive isotopes (such as uranium, thorium, and potassium) and from residual heat left over from planetary accretion.  \n- **Convection** is a mechanism by which heat is transported, not a source of heat itself.  \n- **Molten rock** (magma) is a state of material that results from heating but does not generate energy.  \n- **Volcanoes** are surface manifestations of interior heat but are not themselves a source of energy.  \n\nTherefore, the significant source of energy in the Earth's interior is the decay of radioactive isotopes.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

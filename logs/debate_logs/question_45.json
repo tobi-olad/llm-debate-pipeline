@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_412673",
+  "question": "Which of the following properties of ethanol is a chemical property?",
+  "choices": [
+    "colorless",
+    "flammable",
+    "boils at 78\u00b0C",
+    "density of 0.79 g/cm^3"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which of the properties of ethanol is a chemical property, we need to understand the difference between physical and chemical properties. Physical properties are those that can be observed or measured without changing the composition of the substance, such as color, boiling point, and density. Chemical properties, on the other hand, are those that involve a change in the composition of the substance, such as flammability.\n\nIn this case, let's analyze each option:\n\nA) Colorless: This is a physical property as it can be observed without changing the composition of ethanol.\n\nB) Flammable: This is a chemical property as it involves a change in the composition of ethanol when it reacts with oxygen, releasing heat and light.\n\nC) Boils at 78\u00b0C: This is a physical property as it is a characteristic of the substance that can be measured without changing its composition.\n\nD) Density of 0.79 g/cm^3: This is also a physical property as it is a characteristic of the substance that can be measured without changing its composition.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nChemical properties describe how a substance reacts with other substances or changes its chemical composition, such as burning, rusting, or dissolving.  \n- **Colorless** is a physical characteristic.  \n- **Flammable** indicates that ethanol can undergo combustion, a chemical reaction, so it is a chemical property.  \n- **Boils at 78\u202f\u00b0C** is a physical property related to its phase change.  \n- **Density of 0.79\u202fg/cm\u00b3** is also a physical property.\n\nThus, the correct choice is the one that describes a chemical reaction.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

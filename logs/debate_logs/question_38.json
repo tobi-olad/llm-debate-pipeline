@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7263183",
+  "question": "The nucleus of the cell controls cell activity. Which body system performs a similar function in humans?",
+  "choices": [
+    "circulatory system",
+    "central nervous system",
+    "skeletal system",
+    "integumentary system"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which body system performs a similar function to the nucleus of the cell in controlling cell activity in humans, we need to consider the role of each system mentioned. \n\nFirst, let's consider the circulatory system (A). While it plays a crucial role in transporting nutrients and oxygen to cells and removing waste products, it doesn't directly control cell activity.\n\nNext, we'll consider the skeletal system (C). Its main function is to provide structural support and protection for the body. Although it plays a vital role in maintaining posture and facilitating movement, it doesn't directly control cell activity.\n\nThen, we'll look at the integumentary system (D). This system primarily protects the body from external damage, regulates body temperature, and aids in the production of vitamin D. It doesn't have a direct role in controlling cell activity.\n\nLastly, we'll examine the central nervous system (B). This system consists of the brain and spinal cord and is responsible for controlling various bodily functions, including movement, sensation, perception, and cognition. It processes and interprets information from the environment, making decisions, and sending signals to different parts of the body to respond accordingly. This function is similar to the role of the nucleus in controlling cell activity.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- The nucleus of a cell acts as the control center, directing all cellular functions and activities.  \n- In humans, the system that serves a comparable role\u2014integrating information, making decisions, and directing body functions\u2014is the central nervous system (CNS), which includes the brain and spinal cord.  \n- The other systems listed (circulatory, skeletal, integumentary) primarily transport substances, provide structural support, or protect the body, respectively, and do not serve as the primary regulatory control center.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

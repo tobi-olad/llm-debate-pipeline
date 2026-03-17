@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7236740",
+  "question": "If two tectonic plates are each moving in opposite directions away from the mid-ocean ridge at a rate of 10 millimeters per year, how long will it take for the ridge to become 100 millimeters broader?",
+  "choices": [
+    "1 year",
+    "5 years",
+    "10 years",
+    "100 years"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo find out how long it will take for the mid-ocean ridge to become 100 millimeters broader, we need to understand that the two plates are moving away from each other at a rate of 10 millimeters per year. Since they are moving in opposite directions, their combined rate is 20 millimeters per year.\n\nWe are trying to find the time it takes for the ridge to become 100 millimeters broader. To do this, we can divide the desired change (100 millimeters) by the combined rate (20 millimeters per year).\n\nTime = Change / Rate\nTime = 100 millimeters / 20 millimeters/year\nTime = 5 years\n\nTherefore, it will take 5 years for the ridge to become 100 millimeters broader.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- Each plate moves away from the mid\u2011ocean ridge at 10\u202fmm per year.\n- The ridge widens at a rate equal to the sum of the two plate velocities:  \n  \\(10\\,\\text{mm/yr} + 10\\,\\text{mm/yr} = 20\\,\\text{mm/yr}\\).\n- To reach a total width of 100\u202fmm:  \n  \\(\\text{time} = \\frac{100\\,\\text{mm}}{20\\,\\text{mm/yr}} = 5\\,\\text{years}\\).\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

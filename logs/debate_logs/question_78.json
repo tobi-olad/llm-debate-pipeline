@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_401360",
+  "question": "The freezing point of water is a",
+  "choices": [
+    "physical property.",
+    "chemical property.",
+    "chemical change.",
+    "physical change."
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo determine whether the freezing point of water is a physical or chemical property, we need to understand the definitions of both terms.\n\nA physical property is a characteristic or attribute of a substance that can be observed or measured without changing the substance's chemical identity. Examples include melting point, boiling point, density, and color.\n\nOn the other hand, a chemical property is a characteristic that describes how a substance undergoes a chemical reaction or transformation. Examples include flammability, reactivity with other substances, and the ability to rust.\n\nThe freezing point of water is a temperature at which water changes its state from liquid to solid, but it does not involve a change in the chemical composition of water. Therefore, it can be observed and measured without altering the chemical identity of water.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. **Definition of freezing point**: The freezing point is the temperature at which a substance changes from liquid to solid.\n2. **Nature of the change**: This transition is a *physical change*; the chemical composition of water (H\u2082O) remains the same.\n3. **Property vs. change**: The freezing point is a *property* of water\u2014an intrinsic characteristic that can be measured and compared\u2014rather than a change itself.\n4. **Types of properties**:\n   - *Physical properties* describe aspects of a substance that can be observed or measured without changing its chemical identity (e.g., melting point, boiling point, density).\n   - *Chemical properties* involve the substance\u2019s potential to undergo chemical transformations (e.g., reactivity, acidity).\n5. Since the freezing point is a measurable characteristic that does not involve a chemical transformation, it falls under **physical property**.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

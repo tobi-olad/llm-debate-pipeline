@@ -1,0 +1,25 @@
+{
+  "id": "MEA_2010_8_15",
+  "question": "Which process is the best example of a sudden change to Earth's surface?",
+  "choices": [
+    "landslides moving loose rocks downhill",
+    "sediments depositing on the seafloor",
+    "deltas forming at the mouth of rivers",
+    "mountains building up"
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the best example of a sudden change to Earth's surface, we need to consider the characteristics of each option. A sudden change would imply a rapid and often violent process.\n\nOption A, landslides moving loose rocks downhill, is a sudden and violent process that can occur in a short period of time, often due to heavy rainfall or earthquakes. This process involves the rapid movement of rocks and debris, which fits the definition of a sudden change.\n\nOption B, sediments depositing on the seafloor, is a gradual process that occurs over a long period of time. This process involves the slow accumulation of sediments, which does not fit the definition of a sudden change.\n\nOption C, deltas forming at the mouth of rivers, is also a gradual process that occurs over a long period of time. Deltas form as sediment is deposited by the river, which does not fit the definition of a sudden change.\n\nOption D, mountains building up, is a gradual process that occurs over millions of years. This process involves the movement of tectonic plates and the accumulation of sediment, which does not fit the definition of a sudden change.\n\nConsidering the characteristics of each option, landslides moving loose rocks downhill is the best example of a sudden change to Earth's surface.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\nA sudden change to Earth\u2019s surface implies a rapid, often catastrophic event rather than a slow, incremental process.  \n- **Landslides** occur abruptly when gravity overcomes the resistance of a slope, moving large amounts of rock and soil downhill in seconds to minutes.  \n- **Sediment deposition on the seafloor** and **delta formation** are cumulative processes that take thousands to millions of years to produce significant topographic change.  \n- **Mountain building** (orogenesis) results from tectonic plate interactions and unfolds over millions of years.  \n\nThus, the most sudden surface change among the choices is the landslide.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

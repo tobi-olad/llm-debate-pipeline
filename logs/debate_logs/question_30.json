@@ -1,0 +1,25 @@
+{
+  "id": "ACTAAP_2014_7_5",
+  "question": "Which pair of instruments can be used to measure wind chill?",
+  "choices": [
+    "barometer and wind vane",
+    "wind vane and anemometer",
+    "thermometer and barometer",
+    "anemometer and thermometer"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo measure wind chill, we need to understand what wind chill is. Wind chill is the perceived decrease in air temperature due to wind speed. This means we need to measure both the temperature and the wind speed.\n\nStep 1: We need to measure temperature, which is typically measured using a thermometer.\nStep 2: We also need to measure wind speed, which can be measured using an anemometer.\n\nConsidering these requirements, let's look at the options:\n\nA) barometer and wind vane - A barometer measures atmospheric pressure, and a wind vane measures wind direction, but not speed.\nB) wind vane and anemometer - A wind vane measures wind direction, not speed, so this option is not suitable.\nC) thermometer and barometer - A thermometer measures temperature, but we also need to measure wind speed.\nD) anemometer and thermometer - This option includes both a thermometer to measure temperature and an anemometer to measure wind speed.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nWind chill is calculated from two key measurements: the ambient air temperature and the wind speed.  \n- A **thermometer** measures the temperature.  \n- An **anemometer** measures wind speed.  \nThese two instruments together provide the necessary data to compute wind chill.  \nBarometers measure atmospheric pressure, and wind vanes only show wind direction; neither is required for wind\u2011chill calculation.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

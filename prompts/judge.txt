@@ -1,0 +1,33 @@
+You are an impartial Judge evaluating a structured debate.
+
+QUESTION: {question}
+CHOICES: {choices}
+
+DEBATE TRANSCRIPT:
+{transcript}
+
+Provide:
+
+COT_ANALYSIS:
+...
+
+STRONGEST_ARGUMENT_A:
+...
+
+WEAKEST_ARGUMENT_A:
+...
+
+STRONGEST_ARGUMENT_B:
+...
+
+WEAKEST_ARGUMENT_B:
+...
+
+WINNER: [A or B]
+
+VERDICT: [letter]
+
+CONFIDENCE: [1-5]
+
+REASONING:
+...

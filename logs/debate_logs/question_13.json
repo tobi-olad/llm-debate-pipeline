@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_413549",
+  "question": "A student is going to walk outside to observe her shadow at four different times during a day. At which time will the student most likely notice her shadow is the shortest?",
+  "choices": [
+    "8:05 in the morning",
+    "12:05 in the afternoon",
+    "4:05 in the afternoon",
+    "7:05 in the evening"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine when the student's shadow will be the shortest, we need to consider the position of the sun in the sky at different times of the day. \n\n1. At 8:05 in the morning (Option A), the sun is relatively low in the sky, and its rays have to travel through more of the Earth's atmosphere to reach the student. This results in a longer shadow.\n2. At 12:05 in the afternoon (Option B), the sun is at its highest point in the sky, which means its rays have to travel through the least amount of the Earth's atmosphere to reach the student. This results in the shortest shadow.\n3. At 4:05 in the afternoon (Option C), the sun is lower in the sky than at 12:05, which results in a longer shadow.\n4. At 7:05 in the evening (Option D), the sun is even lower in the sky than at 4:05, resulting in an even longer shadow.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe length of a person's shadow is inversely related to the height of the Sun above the horizon.  \n- When the Sun is low in the morning or evening, the shadow is long.  \n- When the Sun is at its highest point (solar noon), the angle of incidence is steepest and the shadow is shortest.  \n\nAssuming the clock time is close to true solar noon, the student\u2019s shadow will be shortest at **12:05 in the afternoon**, which is nearest to the Sun\u2019s highest point in the sky. The other times (8:05, 4:05, 7:05) are earlier or later in the day when the Sun is lower, producing longer shadows.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7056823",
+  "question": "A cell that has lost its nucleus no longer has the ability to",
+  "choices": [
+    "produce food.",
+    "pass genetic information.",
+    "move through the body.",
+    "use energy."
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, let's break it down step by step.\n\nFirst, we need to identify the main function of the nucleus in a cell. The nucleus contains the cell's genetic material, which is essential for the cell's survival and function.\n\nNext, we need to understand what happens when a cell loses its nucleus. Without a nucleus, the cell would no longer be able to access its genetic material, which is stored in the nucleus.\n\nNow, let's evaluate the answer choices. \n\nChoice A, \"produce food,\" is not directly related to the nucleus. While the nucleus provides instructions for cellular processes, including photosynthesis or cellular respiration, the cell's ability to produce food is more related to its overall cellular structure and function.\n\nChoice C, \"move through the body,\" is also not directly related to the nucleus. Cell movement is generally controlled by the cell's cytoskeleton and motor proteins, not by the nucleus.\n\nChoice D, \"use energy,\" is also not directly related to the nucleus. While the nucleus provides instructions for cellular processes, including energy production, the cell's ability to use energy is more related to its overall cellular structure and function.\n\nFinally, let's look at Choice B, \"pass genetic information.\" This is the correct answer because the nucleus contains the cell's genetic material, which is essential for passing genetic information from one generation of cells to the next. Without a nucleus, the cell would no longer be able to pass genetic information.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- The nucleus houses a cell\u2019s DNA, which contains the genetic instructions for all cellular functions.  \n- When a cell loses its nucleus, it no longer has its DNA and thus cannot transfer or express its genetic information to new cells or to other cells.  \n- While the loss of a nucleus does affect protein synthesis and other processes, the most direct and definitive loss of function is the inability to pass genetic information.  \n- The other options (producing food, moving through the body, using energy) are not directly tied to the presence of a nucleus; cells can still perform many metabolic activities without a nucleus (e.g., red blood cells).\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

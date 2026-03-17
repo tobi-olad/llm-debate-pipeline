@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_400134",
+  "question": "Which tool would be the most helpful in an investigation of the life cycle of a monarch butterfly?",
+  "choices": [
+    "a sharp knife",
+    "a magnifying glass",
+    "a long piece of string",
+    "a large jar with air holes in the top"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo investigate the life cycle of a monarch butterfly, we need to observe its various stages, including egg, larva, pupa, and adult. The tool that would be most helpful in this investigation should allow us to closely observe these stages.\n\nStep 1: Consider each tool's primary function. A sharp knife (A) is used for cutting, a magnifying glass (B) is used for magnifying objects, a long piece of string (C) is used for measuring or tying, and a large jar with air holes in the top (D) is used for containing and observing small objects.\n\nStep 2: Think about which tool would allow us to observe the monarch butterfly's life cycle stages closely. A magnifying glass (B) would enable us to see the small details of the butterfly's life cycle stages, such as the tiny eggs, the caterpillar's growth, and the formation of the chrysalis.\n\nStep 3: Eliminate the tools that are less relevant to observing small details. A sharp knife (A) is not suitable for observing, a long piece of string (C) is not designed for observing, and a large jar with air holes in the top (D) is used for containing but may not provide a clear view of the butterfly's life cycle stages.\n\nStep 4: Choose the tool that best fits the need for observing the monarch butterfly's life cycle stages. A magnifying glass (B) would be the most helpful tool in this investigation.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nTo study the life cycle of a monarch butterfly, a researcher needs to observe the various stages\u2014egg, larva (caterpillar), pupa (chrysalis), and adult\u2014without damaging the subjects.  \n- A sharp knife would harm the insects and is not useful for observation.  \n- A long piece of string does not aid in viewing or tracking the stages.  \n- A large jar with air holes could keep specimens alive but offers no direct way to observe the fine details of each stage.  \n- A magnifying glass allows close inspection of small structures (e.g., eggs, wing patterns, feeding behavior) while keeping the insects unharmed, making it the most useful tool for investigating the life cycle.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": false
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_406836",
+  "question": "A scientist was digging for dinosaur bones in a dry river bed. It started to rain and the scientist had to leave the area. If another scientist wanted to continue digging in the same place, he would have to",
+  "choices": [
+    "know how deep the river got when it rained.",
+    "know how far the river bed is from a town.",
+    "have accurate notes describing the location.",
+    "have the weather records for the past few months."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nThe scenario describes a scientist leaving a dig site due to rain. If another scientist wants to continue digging in the same place, they need to be able to locate the exact spot. The depth of the river when it rains (A) and the distance from a town (B) might be relevant information but are not crucial for locating the exact spot. Weather records (D) might also be helpful but are not necessary for pinpointing the location. Accurate notes describing the location (C) would be essential to ensure that the second scientist digs in the correct spot.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe scientist needs to return to the exact spot where dinosaur bones were being examined. The most essential information for locating that spot again is a precise description of its position\u2014such as coordinates, landmarks, or a detailed map. Knowing how deep the river got, how far the river bed is from a town, or past weather records does not help locate the exact dig site. Therefore, the correct requirement is to have accurate notes describing the location.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

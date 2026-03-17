@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7268118",
+  "question": "Why is it difficult to create a terrarium ecosystem that will last a long time without human help?",
+  "choices": [
+    "Terrarium ecosystems cannot get enough sunlight.",
+    "Terrarium ecosystems cannot get enough oxygen.",
+    "Ecosystems with few species are weak and unstable.",
+    "All ecosystems require thoughtful human management."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, we need to consider the characteristics of a terrarium ecosystem and why it might be challenging to maintain over a long period.\n\nFirstly, terrariums are closed systems, meaning they have a limited amount of space and resources. This restricts the ability of the ecosystem to self-regulate and adapt to changes.\n\nSecondly, terrariums often have a limited number of species, which can make the ecosystem more vulnerable to disturbances. This is because ecosystems with few species are often less resilient and more susceptible to extinction events.\n\nLastly, the closed nature of terrariums means that they can become prone to problems such as overwatering, which can lead to the death of plants and animals.\n\nANSWER:\nC) Ecosystems with few species are weak and unstable.",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nA terrarium is a closed or semi\u2011closed system that typically contains only a handful of plant and animal species. In natural ecosystems, a large diversity of species provides redundancy, complex food webs, and multiple feedback mechanisms that help the system remain stable over long periods. With few species, any disturbance\u2014such as a disease outbreak, a sudden change in temperature, or a shift in nutrient availability\u2014can quickly upset the balance, leading to the collapse of the system. Therefore, the main difficulty in maintaining a long\u2011lasting terrarium without human intervention is that its limited biodiversity makes it inherently weak and unstable.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

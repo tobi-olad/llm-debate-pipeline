@@ -1,0 +1,25 @@
+{
+  "id": "NYSEDREGENTS_2008_8_30",
+  "question": "Part of the east coast of South America and the west coast of Africa have matching fossils within the same series of rock layers. This provides evidence that these two continents were once",
+  "choices": [
+    "separated by a much larger ocean",
+    "joined together as one landmass",
+    "located near the North Pole",
+    "in a different hemisphere"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this question, we need to understand the concept of fossil evidence and how it relates to the movement of continents. \n\n1. The presence of matching fossils within the same series of rock layers indicates that the regions where these fossils were found were once connected.\n2. This is because fossils are preserved in rock layers, and if the rock layers are the same, it suggests that the conditions for fossil formation were similar in the past.\n3. If two regions have matching fossils within the same series of rock layers, it implies that these regions were once connected and formed a single landmass.\n4. The fact that these two regions are now separated by the Atlantic Ocean suggests that they have moved apart over time.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe presence of identical fossil species in the same stratigraphic layers on the east coast of South America and the west coast of Africa indicates that the two regions once shared the same terrestrial environment and the same time period. Such a correlation can only occur if the landmasses were physically connected, allowing organisms to disperse freely across the area. This evidence supports the idea that the continents were once joined together as part of a single supercontinent (e.g., Gondwana). Therefore, the correct interpretation is that the continents were once connected.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

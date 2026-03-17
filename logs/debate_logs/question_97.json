@@ -1,0 +1,25 @@
+{
+  "id": "NYSEDREGENTS_2008_8_27",
+  "question": "An object accelerates at 3 meters per second^2 when a 10-newton (N) force is applied to it. Which force would cause this object to accelerate at 6 meters per second^2?",
+  "choices": [
+    "5 N",
+    "10 N",
+    "20 N",
+    "30 N"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this problem, we need to use Newton's second law of motion, which relates the force applied to an object to its resulting acceleration. The law is stated as F = ma, where F is the net force applied to the object, m is the mass of the object, and a is the resulting acceleration.\n\nGiven that the object accelerates at 3 meters per second^2 when a 10-newton force is applied, we can set up an equation using F = ma. We know F = 10 N and a = 3 m/s^2, but we don't know the mass of the object (m).\n\nHowever, we can rearrange the equation F = ma to solve for mass: m = F/a. Plugging in the values, we get m = 10 N / 3 m/s^2 = 3.33 kg (approximately).\n\nNow, we need to find the force that would cause the object to accelerate at 6 meters per second^2. Using the same equation F = ma, we can plug in the new acceleration value (a = 6 m/s^2) and the mass of the object (m = 3.33 kg).\n\nRearranging the equation to solve for F, we get F = ma. Plugging in the values, we get F = 3.33 kg * 6 m/s^2 = 20 N.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. Newton\u2019s second law: \\(F = m \\cdot a\\).\n2. The given data gives a mass:  \n   \\(m = \\dfrac{F}{a} = \\dfrac{10\\ \\text{N}}{3\\ \\text{m/s}^2} = \\dfrac{10}{3}\\ \\text{kg}\\).\n3. To double the acceleration to \\(6\\ \\text{m/s}^2\\), the required force is  \n   \\(F' = m \\cdot a' = \\left(\\dfrac{10}{3}\\ \\text{kg}\\right) \\times 6\\ \\text{m/s}^2 = 20\\ \\text{N}\\).\n4. Among the answer choices, 20 N corresponds to option **C**.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

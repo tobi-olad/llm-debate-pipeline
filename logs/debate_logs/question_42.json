@@ -1,0 +1,25 @@
+{
+  "id": "TIMSS_2003_4_pg7",
+  "question": "If you throw each one of these things away, which will decay fastest?",
+  "choices": [
+    "A glass bottle",
+    "A metal can",
+    "A plastic bottle",
+    "An apple core"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which item will decay the fastest, we need to consider the rate of decomposition of each item. Decomposition is the process by which organic materials break down into simpler substances.\n\nStep 1: Consider the nature of each item. \n- A glass bottle is inorganic and non-biodegradable.\n- A metal can is also inorganic and non-biodegradable.\n- A plastic bottle is synthetic and non-biodegradable.\n- An apple core is organic and biodegradable.\n\nStep 2: Analyze the rate of decomposition of each item.\n- Inorganic and non-biodegradable items like glass, metal, and plastic do not break down naturally in the environment.\n- Organic and biodegradable items like an apple core break down quickly due to the action of microorganisms like bacteria and fungi.\n\nStep 3: Compare the rates of decomposition.\n- Since the apple core is biodegradable, it will break down faster than the other items, which are non-biodegradable.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- **Glass bottle (A)**: Made of silica; it does not break down naturally in the environment and can persist for thousands of years.\n- **Metal can (B)**: While metal can corrode, the process is relatively slow for most common metals (e.g., aluminum, steel) in typical outdoor conditions.\n- **Plastic bottle (C)**: Plastic degrades slowly, but it can break into micro\u2011plastics over time. Still, this process takes many years to decades.\n- **Apple core (D)**: An organic, moist, and nutrient\u2011rich material that attracts microorganisms and insects. It decomposes rapidly, often within weeks to a few months.\n\nThus, the apple core will decay the fastest.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

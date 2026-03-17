@@ -1,0 +1,25 @@
+{
+  "id": "MCAS_2012_5_23614",
+  "question": "Which of the following is a reason loggerhead turtles bury their eggs in holes that they dig on the beach?",
+  "choices": [
+    "to keep the eggs covered with water",
+    "to provide the eggs with nutrients",
+    "to hide the eggs from predators",
+    "to protect the eggs from sand"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the correct answer, let's analyze each option in relation to the behavior of loggerhead turtles.\n\nOption A: \"to keep the eggs covered with water\" - Loggerhead turtles do not dig holes in the beach to keep their eggs covered with water. In fact, they often dig holes in areas that are above the high tide line. This makes option A an unlikely choice.\n\nOption B: \"to provide the eggs with nutrients\" - There is no evidence to suggest that loggerhead turtles dig holes to provide their eggs with nutrients. The eggs are fertilized and develop internally before being laid, so the eggs do not require additional nutrients from the surrounding environment.\n\nOption C: \"to hide the eggs from predators\" - Loggerhead turtles do bury their eggs in holes on the beach, and one reason for this behavior is to protect the eggs from predators. By digging holes and covering the eggs with sand, the turtles can help conceal the eggs from potential predators that may be searching for them on the surface.\n\nOption D: \"to protect the eggs from sand\" - While it is true that the eggs are buried in sand, this is not the primary reason loggerhead turtles dig holes. The sand is not the main threat to the eggs; rather, it is the predators that may be lurking on the surface.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nLoggerhead turtles lay eggs on sandy beaches and then dig a hole to bury them. The primary purpose of burying the eggs is to conceal them from predators such as birds, mammals, and other animals that might eat the eggs. While the buried eggs also benefit from temperature regulation and moisture retention, the key reason is protection from predation.  \n- Option A (keeping eggs covered with water) is incorrect; the eggs are not submerged in water.  \n- Option B (providing nutrients) is incorrect; the eggs receive nutrients from the yolk, not from the sand.  \n- Option D (protecting eggs from sand) is not the main reason; the eggs are already in sand, and covering them helps keep them stable.  \n\nThus the correct answer is the one that indicates protection from predators.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

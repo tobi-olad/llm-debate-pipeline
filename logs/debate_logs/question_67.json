@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7223493",
+  "question": "A scientist placed a sample of lithium into a container of water. The scientist observed the lithium floating and making a buzzing sound as gas bubbles were forming around it. Which conclusion is best supported by this observation?",
+  "choices": [
+    "A chemical change took place.",
+    "The lithium was dissolved by the water.",
+    "Dissolved gases were released.",
+    "Water was vaporized."
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\n1. The scientist observed lithium floating in the water, which indicates that it is less dense than water. \n2. The formation of gas bubbles around the lithium suggests that some reaction is occurring that releases gases.\n3. The fact that a buzzing sound is produced as the gas bubbles form implies that the reaction is exothermic, releasing energy in the form of sound.\n4. Given that the lithium is less dense than water, it is unlikely that the water is being vaporized (which would require a significant amount of energy).\n5. The release of dissolved gases is not directly supported by the observation, as it typically involves the release of dissolved substances into a solution, not the release of gas bubbles.\n6. A chemical change is most likely occurring, as the formation of gas bubbles and the release of energy suggest a reaction is taking place.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\nWhen lithium metal contacts water, it reacts chemically to form lithium hydroxide and hydrogen gas:\n\n\\[\n2\\,\\text{Li (s)} + 2\\,\\text{H}_2\\text{O (l)} \\rightarrow 2\\,\\text{LiOH (aq)} + \\text{H}_2 (g)\n\\]\n\nThe floating of the lithium and the buzzing sound are due to rapid formation of hydrogen gas bubbles. The presence of a new substance (lithium hydroxide in solution) and the release of gas indicate that a chemical reaction has occurred. The gas is not a dissolved gas from the water; it is a product of the reaction. Therefore, the observation best supports that a chemical change took place.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

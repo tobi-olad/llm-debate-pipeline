@@ -1,0 +1,25 @@
+{
+  "id": "VASoL_2007_5_21",
+  "question": "Which of the following animals is an invertebrate?",
+  "choices": [
+    "Squirrel",
+    "Sea gull",
+    "Cricket",
+    "Lizard"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, we need to understand what an invertebrate is. An invertebrate is an animal that does not have a backbone or spinal column. Invertebrates can be found in various groups, including insects, crustaceans, and mollusks.\n\nStep 1: Analyze each option to determine if it is an invertebrate or a vertebrate.\n- A) Squirrel: Squirrels are mammals, which are vertebrates.\n- B) Sea gull: Sea gulls are birds, which are vertebrates.\n- C) Cricket: Crickets are insects, which are invertebrates.\n- D) Lizard: Lizards are reptiles, which are vertebrates.\n\nStep 2: Based on the analysis, determine which option is an invertebrate.\nFrom the analysis, it is clear that crickets are the only option that fits the definition of an invertebrate.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- A squirrel is a mammal, which has a backbone, so it is a vertebrate.  \n- A sea gull is a bird, and all birds have a vertebral column; thus it is a vertebrate.  \n- A cricket is an insect. Insects lack a backbone and are classified as invertebrates.  \n- A lizard is a reptile, and reptiles possess a vertebral column, making them vertebrates.  \n\nTherefore, the only invertebrate among the options is the cricket.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_407247",
+  "question": "Some frog species will bury themselves in mud if the environment becomes very dry. The frogs enter into a type of hibernation. Which would be the most likely signal for the frogs to emerge from the mud?",
+  "choices": [
+    "a decrease in daylight hours",
+    "an increase in air temperature",
+    "an increase in precipitation",
+    "a decrease in air pressure"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this question, let's consider the behavior and environment of the frog species mentioned. The frogs bury themselves in mud during dry conditions, indicating that they are adapted to survive in environments with limited water availability. When they enter a state of hibernation, it's likely that their primary concern is finding a suitable environment with enough water to sustain them.\n\nDuring dry conditions, the frogs would be more likely to be buried in mud to conserve water. However, when the environment becomes wetter, the frogs would need to emerge to find food and water. This suggests that the signal for the frogs to emerge would be related to an increase in water availability.\n\nNow, let's evaluate the answer choices:\nA) A decrease in daylight hours is not directly related to water availability or the frog's need to emerge from the mud.\nB) An increase in air temperature might make the environment more hospitable, but it's not a direct indicator of increased water availability.\nC) An increase in precipitation would directly lead to an increase in water availability, making it more likely for the frogs to emerge from the mud to find food and water.\nD) A decrease in air pressure is not directly related to water availability or the frog's need to emerge from the mud.\n\nANSWER:\nC)",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nFrogs that burrow into mud during dry periods are essentially entering a state of estivation (a hibernation\u2011like condition adapted to heat and drought). To safely re\u2011emerge, they need to ensure that the surface is moist and that water is available for breathing and for the eggs/larvae that may develop next.  \n- **Decrease in daylight hours** would signal the approach of winter, not the return of wet conditions.  \n- **Increase in air temperature** alone could actually worsen evaporation and keep the mud dry, so it would not reliably cue emergence.  \n- **Increase in precipitation** directly provides moisture, making the mud surface wet and the environment suitable for the frogs to surface and resume normal activity.  \n- **Decrease in air pressure** is not a typical cue for amphibians and would not reliably indicate wet conditions.  \n\nThus, the most reliable signal for the frogs to emerge is an increase in precipitation.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

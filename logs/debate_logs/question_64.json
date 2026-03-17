@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_409241",
+  "question": "Some animals live in a grassland. A fire burns through the grassland. Which type of animal will best compete for resources after the fire?",
+  "choices": [
+    "one that eats meat",
+    "one that uses plants for shelter",
+    "one that lives under the ground",
+    "one that builds nests on the ground"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which type of animal will best compete for resources after the fire, let's consider the impact of the fire on the grassland ecosystem. A fire burns through the grassland, which means that many of the plants that provided food and shelter for the animals will be destroyed or severely damaged.\n\nStep 1:  Consider the options given. \n- Option A: one that eats meat - These animals will not be directly affected by the loss of plants but may struggle to find alternative sources of food.\n- Option B: one that uses plants for shelter - With the plants destroyed, this type of animal will struggle to find new shelter.\n- Option C: one that lives under the ground - These animals are less likely to be affected by the fire above ground and can continue to live in their underground burrows.\n- Option D: one that builds nests on the ground - Like the animals that use plants for shelter, these animals will struggle to find new nesting sites.\n\nStep 2:  Determine which animal is best equipped to compete for resources after the fire.\n- The key factor here is the ability of the animal to find alternative sources of food, shelter, and nesting sites.\n\nStep 3:  Based on the above analysis, the type of animal that will best compete for resources after the fire is the one that is least affected by the fire and can easily adapt to the new environment.\n\nANSWER:\nC)",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- A fire destroys plant material and can expose the ground, making above\u2011ground shelter scarce.\n- Animals that depend on plants for shelter (B) or nest on the ground (D) would lose their primary refuge and would be vulnerable to heat and predators.\n- Meat eaters (A) may find carcasses, but the availability of other food sources (plants, insects) is limited immediately after a fire, making competition for meat high.\n- Animals living underground (C) are protected from the heat of the fire, can maintain stable moisture and temperature, and can resume foraging once vegetation regrows. Their burrows give them a competitive advantage in the immediate post\u2011fire environment.\n\nThus, the animal that lives under the ground is best positioned to compete for resources after the fire.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

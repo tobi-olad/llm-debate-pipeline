@@ -1,0 +1,25 @@
+{
+  "id": "MCAS_2005_8_7",
+  "question": "When air near the ground is warmed by sunlight, which of the following occurs?",
+  "choices": [
+    "The warm air radiates and becomes cool again.",
+    "The warm air evaporates into the cooler air.",
+    "The warm air expands and rises, resulting in convection.",
+    "The warm air loses its ability to hold water and precipitates."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nWhen air near the ground is warmed by sunlight, it gains energy and increases in temperature. As the temperature of the air increases, the molecules within the air gain kinetic energy and begin to move more rapidly. This rapid movement causes the air to expand.\n\nSince the expanded air is less dense than the surrounding air, it becomes buoyant and begins to rise. This upward movement of the warm air is known as convection.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nWhen sunlight heats the ground, the air in contact with the ground absorbs that heat. The increase in temperature causes the air molecules to move faster and the air parcel to expand, becoming less dense relative to the surrounding cooler air. Because it is buoyant, the warm air rises, setting up a convective circulation. This process is the basic mechanism behind convection currents in the atmosphere.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

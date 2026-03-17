@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7139650",
+  "question": "Some new cars use special braking systems to recover energy when the brakes are applied. This energy is stored in special batteries and is used to power the electric motor. What type of energy are the brakes storing as they slow down the car?",
+  "choices": [
+    "gravitational",
+    "kinetic",
+    "potential",
+    "thermal"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the type of energy the brakes are storing, we need to understand what happens when the brakes are applied to slow down the car. As the car slows down, its kinetic energy decreases.\n\nKinetic energy is the energy of motion, and it is directly related to the speed of the object. When the brakes are applied, the car's speed decreases, which means its kinetic energy decreases as well.\n\nSince the brakes are storing this energy in special batteries to be used later, we need to identify the type of energy that is being stored.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- Braking slows the car by reducing its motion.\n- The energy that must be removed from a moving car is its **kinetic energy** (energy of motion).\n- Regenerative braking systems capture this kinetic energy, convert it to electricity, and store it in batteries.\n- Gravitational, potential, and thermal energies are not the primary forms being recovered in this process.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": false
+}

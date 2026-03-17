@@ -1,0 +1,25 @@
+{
+  "id": "AKDE&ED_2008_4_35",
+  "question": "When and where would the number of daylight hours each day be greatest?",
+  "choices": [
+    "during the winter near the equator",
+    "during the summer near the equator",
+    "during the winter near the North Pole",
+    "during the summer near the North Pole"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\n\n1. The number of daylight hours each day varies depending on the time of year and the location on Earth.\n2. Near the equator, the amount of daylight remains relatively consistent throughout the year because the sun's rays strike the Earth directly, resulting in relatively equal amounts of daylight and darkness.\n3. Near the North Pole and South Pole, the amount of daylight varies greatly between summer and winter due to the Earth's tilt. During the summer solstice, the North Pole experiences almost 24 hours of daylight, and during the winter solstice, it experiences almost 24 hours of darkness.\n4. Since the question asks for the greatest number of daylight hours, we need to consider the location that experiences the most daylight during the year.\n5. The North Pole experiences the greatest variation in daylight hours, with almost 24 hours of daylight during the summer solstice and almost 24 hours of darkness during the winter solstice.\n6. Therefore, the location that experiences the greatest number of daylight hours each day is during the summer near the North Pole.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nDaylight hours are longest when the sun is above the horizon for the greatest portion of the 24\u2011hour day.  \n- The equator experiences roughly 12\u202fh of daylight year\u2011round, so it cannot have the greatest number of daylight hours.  \n- Near the poles, the tilt of Earth\u2019s axis causes extreme variations.  \n- During the summer solstice at the North Pole, the sun remains above the horizon for 24\u202fh (the \"midnight sun\"), giving the maximum possible daylight duration.  \n- In winter, the poles experience polar night with zero daylight.\n\nThus the greatest number of daylight hours occurs during the summer near the North Pole.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

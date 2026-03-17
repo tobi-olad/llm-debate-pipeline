@@ -1,0 +1,25 @@
+{
+  "id": "NCEOGA_2013_8_26",
+  "question": "Why is water from an aquifer more likely to be cleaner than water from other sources?",
+  "choices": [
+    "because it forms where fresh and salt water meet",
+    "because it receives water directly from precipitation",
+    "because it rises to the surface near the ocean",
+    "because pollutants are filtered by rock and soil deep within Earth"
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nTo determine why water from an aquifer is more likely to be cleaner than water from other sources, we need to consider how aquifers are formed and how they interact with pollutants. Aquifers are layers of permeable rock, sand, or gravel that can store and transmit large amounts of water. \n\nStep 1: Consider the formation of aquifers. Aquifers typically form underground, far from direct human impact or surface pollution.\n\nStep 2: Think about how pollutants enter the water cycle. Pollutants can enter the water cycle through various means, such as runoff from agricultural or urban areas, industrial waste, or atmospheric deposition.\n\nStep 3: Consider how aquifers interact with pollutants. Since aquifers are typically formed underground and are often isolated from the surface, they are less likely to come into contact with pollutants that are present in the surface environment.\n\nStep 4: Analyze the options provided. Option A refers to the mixing of fresh and saltwater, which is not directly related to the purity of aquifer water. Option B mentions precipitation, which is a source of water for aquifers, but does not explain why aquifer water would be cleaner. Option C mentions the proximity to the ocean, which could actually increase the risk of pollution from saltwater and other coastal pollutants. Option D mentions the filtering effect of rock and soil, which provides a clear explanation for why aquifer water is likely to be cleaner.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nAquifer water is stored underground in porous rock or sediment. As water percolates through layers of soil and rock, particles, microorganisms, and many contaminants are physically filtered out or chemically transformed. This natural filtration process typically results in water that is cleaner than surface water sources, which are more directly exposed to pollutants. Therefore, the best explanation is that pollutants are filtered by rock and soil deep within Earth.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

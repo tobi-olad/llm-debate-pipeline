@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_406777",
+  "question": "Why does sexual reproduction result in more genetic diversity than asexual reproduction?",
+  "choices": [
+    "Traits from two parents are combined.",
+    "More organisms reproduce this way.",
+    "Offspring grow in different environments.",
+    "Offspring come from identical parents."
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo answer this question, let's break down the key concepts involved in sexual and asexual reproduction.\n\nFirst, we need to understand what genetic diversity is. Genetic diversity refers to the variety of genes and their different forms within a population.\n\nAsexual reproduction involves only one parent and produces offspring that are genetically identical to the parent. This means that the genetic material is not mixed or combined in any way.\n\nOn the other hand, sexual reproduction involves two parents, and the genetic material from each parent is mixed and combined to create offspring. This mixing of genetic material is called genetic recombination.\n\nNow, let's consider the answer choices:\n\nA) Traits from two parents are combined. This choice is relevant to the explanation of genetic recombination in sexual reproduction, which increases genetic diversity.\n\nB) More organisms reproduce this way. This choice does not directly explain why sexual reproduction results in more genetic diversity.\n\nC) Offspring grow in different environments. This choice does not explain the genetic aspect of why sexual reproduction results in more genetic diversity.\n\nD) Offspring come from identical parents. This choice is relevant to asexual reproduction, not sexual reproduction.\n\nBased on this analysis, the correct answer is related to the mixing of genetic material from two parents, which increases genetic diversity.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "init_b": {
+    "raw": "REASONING:\nSexual reproduction involves the fusion of gametes from two distinct parents, each carrying a different set of alleles. During meiosis, recombination and independent assortment shuffle these alleles, creating novel combinations in the offspring that would not arise from a single parent\u2019s genome. Asexual reproduction, by contrast, typically produces clones or near\u2011clones of a single parent, so the genetic variation is limited to mutations that occur after reproduction. Therefore, the key mechanism that increases genetic diversity in sexual organisms is the combination of traits from two parents.\n\nANSWER:\nA",
+    "answer": "A"
+  },
+  "consensus": true,
+  "verdict": "A",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

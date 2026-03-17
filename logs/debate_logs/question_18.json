@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_LBS10662",
+  "question": "A hot rock is dropped into a pail of cool water. Heat energy transferred from the rock to the water by",
+  "choices": [
+    "boiling.",
+    "evaporation.",
+    "conduction.",
+    "radiation."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this problem, we need to identify the process by which heat energy is transferred from the hot rock to the cool water.\n\nFirst, let's consider the answer choices:\n- Boiling (A) is the process of a liquid turning into a gas, which is not directly related to heat transfer from the rock to the water.\n- Evaporation (B) is the process of a liquid turning into a gas, which also doesn't directly relate to the heat transfer from the rock to the water.\n- Conduction (C) is the process of heat energy being transferred through direct contact between objects.\n- Radiation (D) is the process of heat energy being transferred through electromagnetic waves.\n\nNow, let's apply this knowledge to the given situation: A hot rock is dropped into a pail of cool water. Since the rock is in direct contact with the water, the heat energy from the rock will be transferred to the water through direct contact.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nHeat can be transferred by conduction (direct contact), convection, radiation, and evaporation.  \n- Boiling and evaporation are phase-change processes that occur when a liquid heats to its boiling point; they are not the mechanisms of heat transfer from a solid to a liquid in contact.  \n- Radiation can occur from the hot rock, but it is typically a small contribution compared to conduction when the rock is in direct contact with the water.  \n- Conduction is the transfer of thermal energy through direct molecular contact and is the primary mode of heat transfer when a hot solid touches a cooler liquid.  \n\nThus, the heat energy moves from the rock to the water mainly by conduction.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

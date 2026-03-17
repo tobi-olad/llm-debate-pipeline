@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_411224",
+  "question": "Mina wanted to know how much water would evaporate from a graduated cylinder in a day. On Day 1, Mina filled a graduated cylinder with 150 milliliters (mL) of water. On Day 2, she observed the volume of water dropped to 148.5 mL. If the water has a density of 1.0 grams per milliliter (g/mL), what was the mass of the water that evaporated?",
+  "choices": [
+    "1.0 g",
+    "1.5 g",
+    "148.5 g",
+    "298.5 g"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo find the mass of the water that evaporated, we need to first determine the difference in volume of water between Day 1 and Day 2. \n\nOn Day 1, the volume of water in the graduated cylinder was 150 mL. \nOn Day 2, the volume of water in the graduated cylinder was 148.5 mL.\n\nNow, let's find the difference in volume of water between Day 1 and Day 2. \nDifference = Volume on Day 1 - Volume on Day 2 \nDifference = 150 mL - 148.5 mL \nDifference = 1.5 mL \n\nSince the water has a density of 1.0 grams per milliliter (g/mL), we can multiply the difference in volume by the density to find the mass of the water that evaporated.\n\nMass of water that evaporated = Difference x Density \nMass of water that evaporated = 1.5 mL x 1.0 g/mL \nMass of water that evaporated = 1.5 g\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. Volume of water on Day\u202f1 = 150\u202fmL.  \n2. Volume on Day\u202f2 = 148.5\u202fmL.  \n3. Volume that evaporated = 150\u202fmL \u2013 148.5\u202fmL = 1.5\u202fmL.  \n4. Density of water = 1.0\u202fg/mL, so mass = volume \u00d7 density = 1.5\u202fmL \u00d7 1.0\u202fg/mL = **1.5\u202fg**.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

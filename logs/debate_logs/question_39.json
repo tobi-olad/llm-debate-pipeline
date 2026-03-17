@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_184730",
+  "question": "Two organisms mate and produce offspring. Which of the following statements best explains why the offspring are unable to reproduce?",
+  "choices": [
+    "The parents are of a different genus and a different species.",
+    "The parents are of a different species, but of the same genus.",
+    "The parents are of the same genus and of the same species.",
+    "The parents are of the same species, but of a different genus."
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this question, we need to understand the basic principles of species classification and reproduction. In biology, species are classified based on their genetic similarity and ability to interbreed. \n\nStep 1: Understanding the concept of species and reproduction - In biology, two organisms can reproduce if they are of the same species and can interbreed. \n\nStep 2: Analyzing the answer choices - We need to find the choice that explains why the offspring are unable to reproduce.\n\nStep 3: Evaluating the options - If the parents are of the same species (same genus and species), they can reproduce and produce fertile offspring. \n\nStep 4: Identifying the correct option - Based on the understanding of species classification and reproduction, the parents must be of different species to prevent the offspring from being able to reproduce.\n\nStep 5: Selecting the correct answer - The correct answer is the option that states the parents are of a different species.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nWhen two organisms mate and produce offspring that are sterile (unable to reproduce), the most common biological explanation is that the parents belong to different species but within the same genus.  \n- Heterosis or hybrid sterility often occurs in interspecific hybrids such as mules (horse \u00d7 donkey) or certain plant hybrids.  \n- If the parents were from different genera (Option\u202fA) or the same genus and species (Option\u202fC), the offspring would typically be fertile.  \n- Option\u202fD is contradictory because an organism cannot be of the same species while belonging to a different genus.  \n\nThus, the scenario described matches Option\u202fB.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

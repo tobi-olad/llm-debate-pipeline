@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_407517",
+  "question": "A certain atom has 20 electrons, 21 neutrons, and 20 protons. What is the atomic mass of the atom?",
+  "choices": [
+    "20",
+    "21",
+    "41",
+    "61"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the atomic mass of the atom, we need to consider the contributions of both protons and neutrons. Protons and neutrons both reside in the nucleus of an atom and contribute to its mass.\n\nThe atomic mass is calculated by adding the number of protons and neutrons in an atom. Since the atom has 20 protons and 21 neutrons, we can calculate the atomic mass as follows:\nAtomic mass = Number of protons + Number of neutrons\nAtomic mass = 20 + 21\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\n- The atomic mass (mass number) of an atom is the sum of its protons and neutrons.\n- The atom has 20 protons and 21 neutrons.\n- 20 (protons) + 21 (neutrons) = 41.\n- Therefore the atomic mass is 41.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

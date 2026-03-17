@@ -1,0 +1,23 @@
+{
+  "id": "demo",
+  "question": "Who is the greatest basketballer ever?",
+  "choices": [
+    "Lebron James",
+    "Michael Jordan"
+  ],
+  "ground_truth": "A",
+  "init_a": {
+    "raw": "REASONING:\nTo determine who the greatest basketballer ever is, we need to consider their achievements, dominance, and impact on the game. \n\nStep 1: Both Michael Jordan and Lebron James are widely regarded as two of the greatest basketball players of all time. They have both won numerous championships, MVP awards, and have been named to multiple All-NBA teams.\n\nStep 2: Michael Jordan's six championships, five MVP awards, and six Finals MVP awards are impressive. He is also known for his dominance on the court, earning the nickname \"Air Jordan\" for his incredible leaping ability and clutch performances.\n\nStep 3: Lebron James has four NBA championships, four MVP awards, and four Finals MVP awards. He is known for his versatility, athleticism, and ability to dominate the game in multiple facets. He has also led three different teams to the NBA Finals.\n\nStep 4: While both players have impressive resumes, we need to consider their overall impact on the game. Michael Jordan's influence on popularizing the NBA globally and his iconic status as a cultural figure are unmatched.\n\nANSWER:\nB) Michael Jordan",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nTo determine who is the greatest basketballer ever, we need to consider various factors such as their performance, achievements, and impact on the game. \n\nFirst, let's look at Michael Jordan's career. He is widely regarded for his incredible athleticism, skill, and competitive drive. He won six NBA championships, five MVP awards, and is the all-time leader in points per game with an average of 30.12. Jordan's influence on the game extends beyond his on-court accomplishments, as he popularized the NBA globally and raised the bar for players.\n\nNext, let's consider Lebron James' career. He is an incredibly versatile player who has carried teams to the NBA Finals single-handedly. He has won four NBA championships, four MVP awards, and is considered one of the most dominant players of his generation. James' longevity and ability to adapt to the game have allowed him to maintain an elite level of performance well into his 30s.\n\nComparing the two players, both have impressive resumes and have made significant contributions to the game. However, when considering who is the greatest basketballer ever, we need to think about their overall impact, dominance, and longevity. \n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": false
+}

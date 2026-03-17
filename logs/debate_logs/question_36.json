@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7057103",
+  "question": "A student researches the occurrence of attached versus unattached earlobes in his family. Which potential title will best reflect the contents of the report?",
+  "choices": [
+    "Conformity of Earlobe Types",
+    "Earlobe Type and Biology",
+    "Heredity of Earlobe Types",
+    "Earlobe Type and Protein Formation"
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the best title for the report, let's break down the key elements involved in the research: earlobe types (attached versus unattached) and the aspect of family (heredity or genetics). The report seems to focus on the occurrence of these earlobe types within the student's family, implying an investigation into whether there's a pattern or inheritance of these traits.\n\nConsidering these elements, we should look for a title that reflects the relationship between earlobe types and their potential inheritance within the family.\n\nANSWER:\nC) Heredity of Earlobe Types",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe student is examining how attached versus unattached earlobes appear within his family, which is a classic study of genetic inheritance.  \n- Option A (\u201cConformity of Earlobe Types\u201d) implies a general comparison or standardization, not specifically about inheritance.  \n- Option B (\u201cEarlobe Type and Biology\u201d) is too broad and does not highlight the hereditary focus.  \n- Option D (\u201cEarlobe Type and Protein Formation\u201d) suggests a molecular mechanism that isn\u2019t indicated in the question.  \n- Option C (\u201cHeredity of Earlobe Types\u201d) directly refers to the transmission of traits across generations, matching the described research.  \n\nThus, the title that best reflects the report\u2019s contents is option C.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

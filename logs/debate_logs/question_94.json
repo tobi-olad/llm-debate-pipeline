@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_409647",
+  "question": "Nutrient-laden waters from heavy rains flow into the Gulf of Mexico. This produces an algae bloom in the ocean environment. As the algae decays, it uses up large amounts of oxygen along the coastline. Which will most likely happen to the area as a result?",
+  "choices": [
+    "Nitrogen will replace oxygen in the water.",
+    "The temperature of the water will increase.",
+    "Wave action will carry away the dead algae.",
+    "Bottom dwellers will die and fish will swim away."
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nWhen nutrient-laden waters from heavy rains flow into the Gulf of Mexico, it leads to an algae bloom in the ocean environment. This is because excess nutrients, such as nitrogen and phosphorus, stimulate the growth of algae. As the algae decays, it uses up large amounts of oxygen along the coastline, a process known as eutrophication.\n\nThis eutrophication causes a decrease in oxygen levels in the water, making it difficult for many aquatic organisms to survive. Bottom-dwelling organisms, such as fish and other marine life, are particularly vulnerable to low oxygen levels because they are less able to move to find oxygen-rich areas.\n\nWave action may help to distribute the dead algae, but it is unlikely to carry it away completely. The temperature of the water is not directly affected by the algae bloom or its decay. Nitrogen levels may increase due to the excess nutrients, but it does not directly replace oxygen in the water.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. Nutrient-rich runoff causes an algal bloom.  \n2. When the algae die, microorganisms decompose the organic matter, a process that consumes dissolved oxygen.  \n3. The depletion of oxygen (hypoxia) is especially problematic near the sea floor where bottom\u2011dwelling organisms live.  \n4. Without sufficient oxygen, these organisms die or leave the area, and the lack of oxygen forces fish to move away.  \n5. The other choices do not directly follow from the oxygen depletion: nitrogen does not replace oxygen, temperature change is not a direct consequence, and wave action merely disperses debris rather than addressing oxygen loss.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

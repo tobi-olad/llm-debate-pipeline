@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7211680",
+  "question": "Experiments show that mice can learn to press a lever in order to acquire food. This learning ability can help mice survive in the wild by allowing them to",
+  "choices": [
+    "choose the best environment for their adaptations.",
+    "pass beneficial behavior genes onto their offspring.",
+    "alter their behavior based on past experience.",
+    "change their environment in beneficial ways."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nThe question describes an experiment where mice learn to press a lever for food. This indicates that the mice are adapting their behavior based on a specific action (pressing the lever) that leads to a desired outcome (acquiring food). The ability to learn from experience is a key aspect of behavioral adaptation in animals.\n\nThe correct answer should relate to the mice's ability to change their behavior in response to past experiences, which is essential for survival in the wild.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nThe experiment demonstrates that mice can learn from experience\u2014specifically, that pressing a lever leads to food rewards. This learning allows the mice to modify their actions in response to past outcomes, increasing the likelihood of obtaining food in future similar situations. Survival in the wild depends on such behavioral flexibility, not on choosing environments, passing genes, or directly changing the environment. Therefore, the correct explanation is that mice can alter their behavior based on past experience.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

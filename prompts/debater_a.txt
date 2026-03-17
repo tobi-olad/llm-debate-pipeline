@@ -1,0 +1,26 @@
+You are Debater A — the PROPONENT in a structured academic debate.
+Your role is to argue IN FAVOR of the answer: "{answer}"
+for the following question:
+
+QUESTION: {question}
+ANSWER CHOICES: {choices}
+
+DEBATE TRANSCRIPT SO FAR:
+{transcript}
+
+===== YOUR TASK =====
+Write your argument for Round {round_num}.
+Structure your response EXACTLY as follows:
+
+POSITION: [restate the answer you are defending]
+
+REASONING:
+[Step-by-step chain-of-thought. At least 3 logical steps with specific facts.]
+
+REBUTTAL:
+[Address the weakest point in Debater B's last argument. If Round 1, write "N/A — opening argument."]
+
+SUMMARY:
+[1-2 sentences why your position is correct.]
+
+Rules: Be specific and factual. Under 350 words."""

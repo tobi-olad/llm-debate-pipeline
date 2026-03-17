@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_400052",
+  "question": "Which adaptation helps a worm move in soil?",
+  "choices": [
+    "moist skin",
+    "tube-like body",
+    "skin that breathes",
+    "very small mouth"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which adaptation helps a worm move in soil, we need to consider the characteristics that would allow a worm to navigate through soil effectively. \n\nFirst, we can consider the properties of soil, which is a dense, moist, and often compacted substance. For a worm to move through soil, it would need a body shape that can easily fit through the small spaces between particles and also allow for some degree of flexibility to change direction.\n\nNext, we can evaluate the given answer choices. A moist skin (A) might be helpful in a humid environment but doesn't necessarily facilitate movement through soil. Skin that breathes (C) is beneficial for gas exchange but doesn't directly contribute to movement. A very small mouth (D) is irrelevant to movement through soil.\n\nConsidering these factors, a tube-like body (B) seems like the most suitable adaptation for a worm to move in soil. A tube-like body would allow the worm to fit through the small spaces between soil particles and also provide flexibility for changing direction.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:  \n- Worms move through soil by contracting and relaxing their elongated, cylindrical bodies in a wave\u2011like pattern (peristalsis).  \n- This motion is most effective when the body is **tube\u2011like**, so it can slide easily into the narrow spaces between soil particles.  \n- While moist skin and cutaneous respiration are important for survival, they do not directly aid locomotion.  \n- A very small mouth is irrelevant to the mechanics of moving through soil.  \n\nTherefore, the adaptation that directly facilitates movement in soil is the tube\u2011like body.\n\nANSWER: B",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

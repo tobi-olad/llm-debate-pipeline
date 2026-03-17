@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7017938",
+  "question": "What causes a ship carrying heavy cargo to take more time to come to a stop than an identical ship carrying lighter cargo if both ships are traveling at the same speed?",
+  "choices": [
+    "increased friction",
+    "greater momentum",
+    "greater acceleration",
+    "more constant velocity"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo solve this problem, we need to understand the concept of momentum and how it relates to the stopping time of an object. \n\n1. Momentum is the product of an object's mass and velocity. Since both ships are traveling at the same speed, their momentum depends on their mass.\n\n2. A ship carrying heavy cargo has a greater mass than an identical ship carrying lighter cargo.\n\n3. Momentum is a measure of an object's tendency to keep moving in a straight line. It takes more force to change the motion of an object with greater momentum.\n\n4. When a ship is traveling at a constant speed, it has a certain amount of momentum. To bring the ship to a stop, a certain amount of force is required to overcome its momentum.\n\n5. Since the ship carrying heavy cargo has greater momentum due to its greater mass, it requires more force to stop it.\n\n6. The greater force required to stop the ship carrying heavy cargo results in a longer stopping time.\n\n7. Therefore, the ship carrying heavy cargo takes more time to come to a stop than an identical ship carrying lighter cargo.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\n1. Both ships start with the same speed, so their kinetic energies are proportional to their masses (KE = \u00bdmv\u00b2).\n2. The heavier ship has a larger mass, so its momentum \\(p = mv\\) is greater.\n3. Stopping the ship requires a force that changes its momentum. For a given braking force, the deceleration \\(a = F/m\\) is smaller when the mass \\(m\\) is larger.\n4. A smaller deceleration means the ship slows down more gradually, taking a longer time to reach rest.\n5. Therefore, the heavier ship takes more time to stop because it has greater momentum (and consequently smaller deceleration for the same stopping force).\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

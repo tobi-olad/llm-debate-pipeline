@@ -1,0 +1,15 @@
+Answer the following multiple-choice question using step-by-step reasoning.
+
+QUESTION:
+{question}
+
+ANSWER CHOICES:
+{choices}
+
+Provide your answer using the following format:
+
+REASONING:
+[Think step-by-step and explain your reasoning.]
+
+ANSWER:
+[Provide the single correct letter such as A, B, C, or D.]

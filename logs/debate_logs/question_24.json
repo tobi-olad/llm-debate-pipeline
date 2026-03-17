@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_SC_407400",
+  "question": "A class plans an investigation to see which brand of light bulb lasts the longest. Which of these steps should come first?",
+  "choices": [
+    "Repeat the investigation.",
+    "Write a report of the results.",
+    "Make a table for recording data.",
+    "Make daily observations of the light bulbs."
+  ],
+  "ground_truth": "C",
+  "init_a": {
+    "raw": "REASONING:\nTo determine which brand of light bulb lasts the longest, the class needs to start by setting up the experiment. This involves selecting the light bulbs, setting up the equipment, and preparing for data collection. Before making observations or recording data, the class needs to establish a method for organizing and tracking the data. This is where making a table for recording data comes into play.\n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "init_b": {
+    "raw": "REASONING:\nIn a scientific investigation the very first thing to do is plan the experiment \u2013 decide what will be measured and how the information will be recorded.  \nAmong the options, the only step that prepares for data collection is **\u201cMake a table for recording data.\u201d**  \nThe other choices come later: observations are made after the experiment starts, repeating the investigation is done after initial results, and writing a report follows the data analysis.  \n\nANSWER:\nC",
+    "answer": "C"
+  },
+  "consensus": true,
+  "verdict": "C",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

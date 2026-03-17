@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_7068583",
+  "question": "What is one condition necessary to produce diamonds?",
+  "choices": [
+    "high altitude",
+    "intense pressure",
+    "quick cooling",
+    "low temperatures"
+  ],
+  "ground_truth": "B",
+  "init_a": {
+    "raw": "REASONING:\nTo determine the correct answer, let's consider the process of diamond formation. Diamonds are made from pure carbon, which is subjected to extreme conditions deep within the Earth's mantle. \n\nStep 1:  We know that diamonds are formed under high temperatures, but that alone is not enough to create them. \nStep 2:  Next, we consider the necessity of pressure in the formation of diamonds. Diamonds require intense pressure to form, which causes the carbon atoms to bond in a unique crystal structure.\nStep 3:  Now, let's look at the other options. High altitude (A) is not related to diamond formation. Quick cooling (C) is not a primary factor in diamond formation. Low temperatures (D) are not necessary for diamond formation; in fact, diamonds form under extremely high temperatures.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "init_b": {
+    "raw": "REASONING:\nDiamonds form in the Earth's mantle where carbon is subjected to very high pressures (typically 5\u20136 GPa) and high temperatures (around 1400\u20131900\u202f\u00b0C).  \n- **High altitude** is not a necessary condition; diamonds can form deep underground, far below the surface.  \n- **Intense pressure** is essential to convert graphite or carbon into the diamond crystal structure.  \n- **Quick cooling** is not required; diamonds can survive slow cooling.  \n- **Low temperatures** would actually prevent diamond formation, as high temperatures are needed to melt or graphitize the carbon before it can crystallize as diamond.\n\nThus, the key necessary condition among the options is intense pressure.\n\nANSWER:\nB",
+    "answer": "B"
+  },
+  "consensus": true,
+  "verdict": "B",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}

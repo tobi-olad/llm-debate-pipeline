@@ -1,0 +1,25 @@
+{
+  "id": "Mercury_404638",
+  "question": "A scientist categorized a rock as an extrusive igneous rock. Another scientist could accurately categorize the same rock as",
+  "choices": [
+    "intrusive igneous.",
+    "clastic sedimentary.",
+    "metamorphic.",
+    "volcanic."
+  ],
+  "ground_truth": "D",
+  "init_a": {
+    "raw": "REASONING:\nFirst, we need to understand what extrusive igneous rock is. Extrusive igneous rocks are formed when magma from the Earth's interior is ejected out onto the surface, cools quickly, and solidifies. \n\nSince the rock is categorized as an extrusive igneous rock, it means that it was formed from the rapid cooling of magma on the Earth's surface.\n\nNext, we need to consider the other options. Option A, intrusive igneous, refers to rocks formed when magma cools slowly beneath the Earth's surface. This is the opposite of extrusive igneous rocks.\n\nOption B, clastic sedimentary, refers to rocks formed from the accumulation and compression of sediments. This is a completely different type of rock formation process.\n\nOption C, metamorphic, refers to rocks formed when existing rocks are transformed by heat and pressure. Again, this is a different type of rock formation process.\n\nOption D, volcanic, refers to rocks that are associated with volcanic activity. Since extrusive igneous rocks are formed from the rapid cooling of magma on the Earth's surface, which is often associated with volcanic activity, the rock can also be accurately categorized as volcanic.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "init_b": {
+    "raw": "REASONING:\nAn extrusive igneous rock is one that has crystallized from magma at or near the Earth's surface, typically during a volcanic eruption. Therefore, the rock is also correctly described as a volcanic rock. The other options (intrusive igneous, clastic sedimentary, metamorphic) describe different rock types that do not match the characteristics of an extrusive igneous rock.\n\nANSWER:\nD",
+    "answer": "D"
+  },
+  "consensus": true,
+  "verdict": "D",
+  "rounds": [],
+  "early_stop": false,
+  "judge": {},
+  "correct": true
+}
